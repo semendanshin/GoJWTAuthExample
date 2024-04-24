@@ -11,7 +11,7 @@
 
 ## Маршруты
 
-### GET /tokens/login?guid=\<guid\>
+* ### GET /tokens/login?guid=\<guid\>
 Генерация пары токенов для пользователя с переданным guid
 
 #### Параметры
@@ -29,7 +29,7 @@
 }
 ```
 
-### GET /tokens/refresh
+* ### POST /tokens/refresh
 
 Обновление пары токенов
 
