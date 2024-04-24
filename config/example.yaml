@@ -1,0 +1,14 @@
+env: dev
+mongo:
+  host: localhost
+  port: 62940
+  user: root
+  pass: root
+  name: medods
+server:
+  address: ":8080"
+  timeout: 10s
+tokens:
+  secret: "secret"
+  access_ttl: 15m
+  refresh_ttl: 24h
