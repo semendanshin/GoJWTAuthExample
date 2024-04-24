@@ -20,11 +20,12 @@
 #### Ответ
 ```json
 {
-    "status": "success",
-    "data": {
-        "access_token": "",
-        "refresh_token": ""
-    }
+  "status": "success",
+  "error": "",
+  "data": {
+    "access_token": "",
+    "refresh_token": ""
+  }
 }
 ```
 
@@ -44,6 +45,7 @@
 ```json
 {
     "status": "success",
+    "error": "",
     "data": {
         "access_token": "",
         "refresh_token": ""
